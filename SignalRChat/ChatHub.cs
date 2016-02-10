@@ -13,6 +13,8 @@ namespace SignalRChat
         {
             // Call the broadcastMessage method to update clients.
             Clients.All.broadcastMessage(name, message);
+
+            // new line
         }
     }
 }
