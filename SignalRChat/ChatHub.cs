@@ -15,6 +15,7 @@ namespace SignalRChat
             Clients.All.broadcastMessage(name, message);
 
             // new line
+            // New in Master
         }
     }
 }
